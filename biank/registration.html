@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="styles/nysl.css">
+<meta charset="utf-8">
+<title>Registration Form.</title>
+</head>
+<body>
+    <header>
+      <div class= "contenedor">
+          <h1 class="titulo">Northside Youth Soccer League</h1>
+          <img src="design1_image1.jpg" alt="imagen 1" style="width:97.5vw;height:25vw;border:0px;margin:0px"> 
+        </div>
+        <h2 class="subtitulo"> Registration Form.</h2>
+        <img class="logo" src="nysl_logo.png" alt="logo" style="width:10vw;height:10vw">
+    </header>
+  
+      
+  
+  <nav style="position:relative;top:10vw;">
+      
+      <ul class=lista>
+      <li class="linknav">
+          <p><a href="home.html">Home</a><br></p>
+              
+      </li>
+      <li>
+          <p class="linknav"> <a href="about.html">About NYSL</a></p>
+           
+      </li>
+      <li class="linknav"><a href="contact.html">Contact</a><br>
+      </li>
+      <li class="linknav"><a href= "game_info.html">Game Information</a>
+      </li>
+      <li class="linknav"><a href="rules.html">Rules</a></li>
+      <li class="linknav-subrayado"><p class="link-subrayado linknav">Registration Form</p>
+      </li>
+    </ul>
+ </nav>
+<section class="texto">
+<form action="show_data.html" method="GET" class="formasection">
+<div class="renglon">
+    <div class="formulario">
+        <p>First Name:</p><br>
+        <input type="text" name="First_Name" class="contenidoform"><br>
+    </div>
+    <div class="formulario">
+        <p>Last Name:</p><br>
+        <input type="text" name="Last_Name" class="contenidoform"><br>
+    </div>
+</div>
+<div class="formulario">
+<p>Street Adress:</p><br>
+              <input type="text" name="Street_Address" class="contenidoform"><br>
+</div>
+<div class="renglon">
+<div class="formulario">
+<p>City:</p><br>
+              <input type="text" name="City" class="contenidoform"><br>
+</div>
+<div class="formulario">
+<p>Zip Code:</p><br>
+              <input type="number" name="Zip_Code" class="contenidoform"><br>
+</div>
+</div>
+<div class="renglon">
+<div class="formulario">
+<p>Birth Date</p><br> 
+              <input type="date" name="Birth_Date" class="contenidoform"><br>
+</div>
+<div class="formulario">
+<p>Gender:</p>
+            <input class="check" type="radio" name= "gender" value="female" id="Female"> <label class="check" for="Female">Female</label>
+            <input class="check" type="radio" name= "gender" value="male" id="Male"> <label class="check" for="Male">Male</label>
+
+</div>
+</div>
+<br>
+<div class="formulario">
+    <p>Grade:</p>
+    <input class="check" type="radio" name= "grade" value="pre-school" id="pre-school"><label class="check" for="pre-school">Pre-School</label>
+    <input class="check" type="radio" name= "grade" value="primergrado" id="primergrado"><label class="check" for="primergrado">1st</label>
+    <input class="check" type="radio" name= "grade" value="segundogrado" id="segundogrado"><label class="check" for="segundogrado">2nd</label>
+    <input class="check" type="radio" name= "grade" value="tercergrado" id="tercergrado"><label class="check" for="tercergrado">3rd</label>
+    <input class="check" type="radio" name= "grade" value="cuartogrado" id="cuartogrado"><label class="check" for="cuartogrado">4th</label>
+    <input class="check" type="radio" name= "grade" value="quintogrado" id="quintogrado"><label class="check" for="quintogrado">5th</label>
+</div>
+<h3 class="fuentegill">Which elementary school do you live near?</h3>
+<h4>Closest School:</h4>
+<div class="renglon">
+    <input class="check" type="radio" name= "Closest_School" value="AJKatzenmaier" id="AJKatzenmaier"><label class="check" for="AJKatzenmaier">AJ Katzenmaier</label>
+    <input class="check" type="radio" name= "Closest_School" value="MarjoriePHart" id="MarjoriePHart"><label class="check" for= "MarjoriePHart">Marjorie P Hart </label>
+</div>
+<div class="renglon">
+    <input class="check" type="radio" name= "Closest_School" value="Greenbay" id="Greenbay"><label class="check" for= "Greenbay">Greenbay</label>
+    <input class="check" type="radio" name= "Closest_School" value="NorthElementary" id="NorthElementary"><label class="check" for="NorthElementary">North Elementary</label>
+</div>
+<div class="renglon">
+    <input class="check" type="radio" name= "Closest_School" value="HowardAYeager" id="HowardAYeager"><label class="check" for="HowardAYeager">Howard A Yeager</label>
+    <input class="check" type="radio" name= "Closest_School" value="SouthElementary" id="SouthElementary"><label class="check" for="SouthElementary">South Elementary</label>
+</div>
+<h3 class="fuentegill" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">What position(s) do you normally play? (check all that apply)</h3>
+<div class="renglon">
+<div class="formulario">
+    <input class="check"   type="checkbox" name= "position" value="Forward" id="Forward"><label class="check" for="Forward">Forward</label>
+    <input class="check"   type="checkbox" name= "position" value="Midfield" id="Midfield"><label class="check" for="Midfield">Midfield</label>
+</div></div>
+<div class="renglon">
+    <input class="check"   type="checkbox" name= "position" value="Defense" id="Defense"><label class="check" for="Defense">Defense</label>
+    <input class="check"   type="checkbox" name= "position" value="Goalkeeper" id="Goalkeeper"><label class="check" for="Goalkeeper">Goalkeeper</label>
+</div>
+<h3>Uniform Size:</h3>
+    <div class="renglon">
+    <div class="formulario">
+            <input class="check" type="radio" name= "Uniform_Size" value="YouthSmall" id="YouthSmall"><label class="check" for="YouthSmall">Youth Small</label>
+            <input class="check" type="radio" name= "Uniform_Size" value="Medium" id="Medium"><label class="check" for="Medium">Medium</label>
+</div>
+</div>
+    <div class="renglon">
+            <input class="check" type="radio" name= "Uniform_Size" value="YouthMedium" id="YouthMedium"><label class="check" for="YouthMedium">Youth Medium</label>
+            <input class="check" type="radio" name= "Uniform_Size" value="Large" id="Large"><label class="check" for="Large">Large</label>
+        </div>
+<div class="renglon">
+            <input class="check" type="radio" name= "Uniform_Size" value="YouthLarge" id="YouthLarge"><label class="check" for="YouthLarge">Youth Large</label>
+            <input class="check" type="radio" name= "Uniform_Size" value="Extra-Large" id="Extra-Large"><label class="check" for="Extra-Large">Extra-Large</label>
+</div>
+<div>
+    <input class="check" type="radio" name= "Uniform_Size" value="Small" id="Small"><label class="check" for=Small>Small</label>
+    
+</div>
+<h4 style="margin-bottom:0vw;"> Permission to Play</h4>
+<p class="permiso-form letrachica" style="margin-top:0vw;">    
+I, the parent or guardian of the minor
+registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). 
+In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant 
+for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel 
+and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of 
+the registrant’s participation in the programand/orbeing transported to or from NYSL sponsored activities,which transportation 
+By signing below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge that I have read the 
+cancellation policy and agree to its terms.
+</p>
+<div class="renglon">
+<div class="formulario">             
+    <p>Parent/Guardian</p><br>
+              <input type="text" name="Parent_Guardian" class="contenidoform"><br>
+</div>
+            
+<div class="formulario">            
+      <p>Date:</p>
+      <input type="date" name="date" class="contenidoform">
+</div>              
+</div>         
+<input type="submit">
+</form>
+</section>

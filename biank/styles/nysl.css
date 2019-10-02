@@ -1,0 +1,187 @@
+.subtitulo
+{
+width:97.5vw;
+background-color: black;
+color: white;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:2.5vw;
+text-align:center;
+margin: 0px;
+}
+
+h1{
+    font-size:3vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linknav{
+    font-size:1.4vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    color:blue;
+    margin-top:6vw;
+}
+.contenedor{
+    position:relative;
+    display:inline-block;
+}
+.titulo{
+    position:absolute;
+    font-size:5vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;  
+    top:-20px;
+    left:10px;}
+.logo{
+position:relative;
+left:80vw;
+bottom:5vw;
+}
+.texto
+{
+left:200px;
+bottom:200px;
+width:80vw;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+position:relative;
+left:15vw;
+bottom:19vw;
+}
+.lista
+{list-style-type:none;
+}
+
+a
+{
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-decoration:none;
+color:#0e55c7;}
+
+.link-subrayado
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#0e55c7;
+    font-size: 1.4vw;
+    text-decoration: underline;
+}
+body
+{
+    height: 60vw;
+}
+section
+{
+    margin-bottom:10vw;
+    font-size: 1.3vw;
+}
+
+.seccion
+{
+    position:relative;
+    bottom:35vw;
+    width:65vw;
+}
+
+header
+{
+    height:27vw;
+}
+
+nav{
+    width:12vw;
+    position:relative;
+    top:5vw;
+}
+
+.textosubrayado
+{text-decoration:underline;}
+
+.subrayado-cursiva
+{
+    text-decoration: underline;
+    font-style:  italic;
+}
+
+h3
+{font-style: italic;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mapa
+{display: flex;
+justify-content:space-between;
+margin: 5vw;
+}
+
+.formulario
+{display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+}
+
+.contenidoform
+{
+    position:relative;
+    top:1.5vw;
+}
+
+.check
+{
+    position:relative;
+    top:1.5vw;
+}
+
+.permiso-form
+{
+    position:relative;
+    top:3vw;
+    margin-bottom:5vw;
+}
+
+
+.renglon
+{
+    display:flex;
+    justify-content: stretch;
+}
+.letrachica
+{
+    font-size:1vw;
+}
+
+form h3{
+    margin-top:4vw;
+}
+
+form h4{
+    margin-top:4vw;
+}
+
+input[type=text]
+{
+    border:none;
+    border-bottom:2px solid black;
+}
+
+input[type=date]
+{
+    border:none;
+    border-bottom:2px solid black;
+}
+
+input[type=number]
+{
+    border:none;
+    border-bottom:2px solid black;
+}
+form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.formasection
+{position:relative;
+bottom:25vw;
+}
